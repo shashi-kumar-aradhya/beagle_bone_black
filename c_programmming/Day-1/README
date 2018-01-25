@@ -1,0 +1,7 @@
+Hello Welcome to the programming world !!
+
+This is my first C-Program
+
+For compiling this program use 
+
+gcc hello_world.c
