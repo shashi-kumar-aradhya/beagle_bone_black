@@ -4,6 +4,7 @@
 #include "types.h"
 #include "gpio.h"
 #include "sys_log.h"
+#include "i2c.h"
 
 extern unsigned short int value;
 

@@ -10,6 +10,8 @@ typedef short int		int16_t;
 typedef char			int8_t;
 
 
+
+#define BIT(n) (1UL << n)
 #define PUT32(addr, val) (*(volatile uint32_t *) (addr) = (uint32_t) (val))
 #define GET32(addr) (*(volatile uint32_t *) (addr))
 
