@@ -7,5 +7,6 @@ setenv ipaddr 192.168.0.102;setenv loadaddr 0x402F0400; setenv serverip 192.168.
 setenv tftproot /tftpboot;setenv bootfile ${tftproot}/download.bin;
 tftp ${loadaddr} ${bootfile};echo *** Booting to BareMetal ***;go ${loadaddr};
 
+link for creating TFTP SERVER : http://wiki.beyondlogic.org/index.php?title=Setup_TFTP_Server
 
 /home/shashi/Shashi/EE_WIKI/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf.tar.xz
