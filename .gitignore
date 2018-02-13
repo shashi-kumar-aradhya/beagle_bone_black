@@ -10,7 +10,9 @@
 *.spl
 *.lst
 *.so
-
+*.bin
+*.elf
+*.map
 
 # Logs and databases #
 ######################
